@@ -1,4 +1,3 @@
 # odin-recipes
-Basic recipe website
 
-In this basic website a HTML boilerplate will be created along with a basic page layout.  Also a basic webpage layout from directory and file structure will be created.
+In this recipe website I will first create a HTML boilerplate containing a basic page layout.  I will further build the website by creating the webpage layout from directory and file structures.
