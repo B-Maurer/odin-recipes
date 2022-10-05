@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Verdana, sans-serif;
-  background-color: #d6c6a6;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #d6c6a6; */
 }
 
 #homepage {
