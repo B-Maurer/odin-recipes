@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 img {
   width: 100%;
 }
@@ -30,13 +35,11 @@ img {
 }
 
 .hero {
-  background-image: url(/img/hero-image.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: #4c5ca3;
   color: #ffffff;
 
-  padding: 5em 0;
-  height: 100vh;
+  padding: 2em 0;
+  height: 20%;
 }
 
 .hero-title {
@@ -50,7 +53,7 @@ img {
 
 .nav-item {
   display: inline-block;
-  background-color: #4c5ca3;
+  background-color: #ffffff;
   margin-left: 1em;
   padding: 0.25em 0.75em;
   border-radius: 10px;
@@ -58,9 +61,15 @@ img {
 
 .nav-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #4c5ca3;
 }
 
-.hero-cite {
-  margin-left: 1em;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-card {
+  width: 30%;
+  text-align: center;
 }
